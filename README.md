@@ -76,7 +76,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/nobicode.git
+   git clone https://github.com/Nobhokleng/nobicode.git
    cd nobicode
    ```
 
@@ -151,7 +151,7 @@
   - Premium options: Claude Sonnet 4, Gemini 2.5 Pro Preview
   - Specialized options: Deepseek V3 for multi-language projects
 - **Multiple AI Service Support**: Maintain access to both Gemini and OpenRouter simultaneously
-- **Developer-Friendly**: Built by developers, for developers with intuitive UX and comprehensive model descriptions
+- **Developer-Friendly**: Built by AI, for developers with intuitive UX and comprehensive model descriptions
 - **Privacy-Focused**: Client-side application with local storage - your code stays private
 - **Intelligent Language Support**: Optimized prompts for better code review quality across 9 languages
 - **Extensible Architecture**: Easy to add new AI providers and languages without replacing existing services
@@ -165,39 +165,17 @@
 |------------|-----------|
 | ![Main Interface Light](screenshots/01-main-interface-light.png) | ![Main Interface Dark](screenshots/02-main-interface-dark.png) |
 
-### AI Service Configuration
-| Service Selection | Model Selection |
-|-------------------|-----------------|
-| ![Service Selector](screenshots/03-service-selector.png) | ![Model Selector](screenshots/04-model-selector-gemini.png) |
-
 ### Code Review in Action
-| Code Input | Streaming Review | Completed Review |
-|------------|------------------|------------------|
-| ![Code Input](screenshots/06-code-input.png) | ![Streaming Review](screenshots/08-streaming-review.png) | ![Completed Review](screenshots/09-completed-review.png) |
-
-### Multilingual Support
-| Language Selection | Multilingual Output |
-|--------------------|---------------------|
-| ![Language Selector](screenshots/10-language-selector.png) | ![Multilingual Review](screenshots/11-multilingual-review.png) |
-
-### History Management
-| History Panel | Export Feature |
-|---------------|----------------|
-| ![History Panel](screenshots/12-history-panel.png) | ![History Export](screenshots/14-history-export.png) |
-
-### Mobile Responsive Design
-| Mobile Interface | Mobile Menu |
-|------------------|-------------|
-| ![Mobile Interface](screenshots/20-mobile-interface.png) | ![Mobile Menu](screenshots/21-mobile-menu.png) |
-
-> 📁 **View all screenshots**: [screenshots folder](screenshots/) contains detailed documentation and all interface captures.
+| Model Selection | Code Review |
+|------------|------------------|
+| ![Model Selector](screenshots/03-model-selector.png) | ![Code Review](screenshots/04-code-review.png) |
 
 ## 🔄 **Development**
 
 ### Project Structure
 ```
 nobicode/
-├── components/             # React components
+├── components/            # React components
 ├── services/              # AI service integrations
 ├── constants/             # Configuration and translations
 ├── types/                 # TypeScript type definitions
@@ -278,7 +256,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 ## 🙏 **Acknowledgments**
 
 - **AI Development**: This project demonstrates the capabilities of **Vibe Coding** - 100% AI-generated development
-- **Augment Code**: For providing the AI development platform that made this project possible
+- **Google AI Studio & Augment Code**: For providing the AI development platform that made this project possible
 - Google Gemini AI for powerful code analysis capabilities
 - OpenRouter for providing access to multiple AI models
 - The React and TypeScript communities for excellent tooling
@@ -292,9 +270,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - [ ] **Advanced Language Support**: Expand UI language options while maintaining quality standards
 - [ ] **Code Diff Analysis**: Compare code versions with constraint-aware model selection
 - [ ] **Team Collaboration**: Multi-user features with service and model preferences
-- [ ] **Plugin System**: Custom analyzers with service-specific optimizations
-- [ ] **Desktop Application**: Electron app with enhanced API key security
-- [ ] **VS Code Extension**: Direct integration with constraint-aware model selection
 
 ---
 
