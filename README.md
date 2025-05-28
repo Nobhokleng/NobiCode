@@ -160,22 +160,52 @@
 
 ## 📸 **Screenshots**
 
-*Coming soon - Screenshots of the application interface*
+### Main Interface
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Main Interface Light](screenshots/01-main-interface-light.png) | ![Main Interface Dark](screenshots/02-main-interface-dark.png) |
+
+### AI Service Configuration
+| Service Selection | Model Selection |
+|-------------------|-----------------|
+| ![Service Selector](screenshots/03-service-selector.png) | ![Model Selector](screenshots/04-model-selector-gemini.png) |
+
+### Code Review in Action
+| Code Input | Streaming Review | Completed Review |
+|------------|------------------|------------------|
+| ![Code Input](screenshots/06-code-input.png) | ![Streaming Review](screenshots/08-streaming-review.png) | ![Completed Review](screenshots/09-completed-review.png) |
+
+### Multilingual Support
+| Language Selection | Multilingual Output |
+|--------------------|---------------------|
+| ![Language Selector](screenshots/10-language-selector.png) | ![Multilingual Review](screenshots/11-multilingual-review.png) |
+
+### History Management
+| History Panel | Export Feature |
+|---------------|----------------|
+| ![History Panel](screenshots/12-history-panel.png) | ![History Export](screenshots/14-history-export.png) |
+
+### Mobile Responsive Design
+| Mobile Interface | Mobile Menu |
+|------------------|-------------|
+| ![Mobile Interface](screenshots/20-mobile-interface.png) | ![Mobile Menu](screenshots/21-mobile-menu.png) |
+
+> 📁 **View all screenshots**: [screenshots folder](screenshots/) contains detailed documentation and all interface captures.
 
 ## 🔄 **Development**
 
 ### Project Structure
 ```
 nobicode/
-├── src/
-│   ├── components/          # React components
-│   ├── services/           # AI service integrations
-│   ├── constants/          # Configuration and translations
-│   ├── types/              # TypeScript type definitions
-│   ├── utils/              # Utility functions
-│   └── contexts/           # React contexts
-├── public/                 # Static assets
-└── dist/                   # Build output
+├── components/             # React components
+├── services/              # AI service integrations
+├── constants/             # Configuration and translations
+├── types/                 # TypeScript type definitions
+├── utils/                 # Utility functions
+├── contexts/              # React contexts
+├── screenshots/           # Application screenshots and documentation
+├── public/                # Static assets (index.html)
+└── dist/                  # Build output
 ```
 
 ### Available Scripts
