@@ -158,22 +158,7 @@
 - **Open Source**: Transparent, customizable, and community-driven
 - **Multi-Platform**: Works on any device with a modern web browser
 
-## � **Featured Article**
-
-**[Building a Hello World Website with AI-Assisted Vibe Coding](https://medium.com/@hoklengnob/building-a-hello-world-website-with-ai-assisted-vibe-coding-afc96323700b)**
-
-This comprehensive Medium article explores the philosophy and practice of AI-assisted development through the lens of building NobiCode. It covers:
-
-- **The "Vibe Coding" Methodology**: Why this complex application felt as simple as writing "Hello World"
-- **Real-World AI Development Insights**: Both the game-changing benefits and hidden challenges
-- **Industry Impact Analysis**: How AI-assisted coding is reshaping the developer landscape
-- **Practical Best Practices**: Treating AI as a smart tutor, maintaining developer habits, and knowing when to rely on human expertise
-- **The Ownership Dilemma**: Addressing concerns about authenticity and creative ownership in AI-generated code
-- **Future of Programming**: The emerging developer hierarchy and evolution of the craft
-
-A balanced perspective on AI-assisted development that goes beyond hype to examine both opportunities and responsibilities in modern software engineering.
-
-## �📸 **Screenshots**
+## 📸 **Screenshots**
 
 ### Main Interface
 | Light Mode | Dark Mode |
@@ -285,8 +270,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - [ ] **Advanced Language Support**: Expand UI language options while maintaining quality standards
 - [ ] **Code Diff Analysis**: Compare code versions with constraint-aware model selection
 - [ ] **Team Collaboration**: Multi-user features with service and model preferences
-
-
 
 ---
 
