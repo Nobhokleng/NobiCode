@@ -2,7 +2,10 @@
 
 **An intelligent multilingual AI-powered code review tool that helps developers improve code quality through automated analysis and detailed feedback.**
 
+> 🤖 **AI-Generated Project**: This entire project was created using **Vibe Coding** - a development approach where AI writes 100% of the code. From architecture design to implementation, every line of code, component, and feature was generated through AI collaboration, showcasing the power of modern AI-assisted development.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![AI Generated](https://img.shields.io/badge/🤖_AI_Generated-Vibe_Coding-purple.svg)](https://github.com/Nobhokleng/nobicode)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -244,6 +247,8 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 🙏 **Acknowledgments**
 
+- **AI Development**: This project demonstrates the capabilities of **Vibe Coding** - 100% AI-generated development
+- **Augment Code**: For providing the AI development platform that made this project possible
 - Google Gemini AI for powerful code analysis capabilities
 - OpenRouter for providing access to multiple AI models
 - The React and TypeScript communities for excellent tooling
