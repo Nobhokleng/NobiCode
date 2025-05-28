@@ -1,0 +1,6 @@
+
+{
+  "name": "NobiCode",
+  "description": "An intelligent multilingual tool that leverages multiple AI services (Gemini API and OpenRouter) to perform automated code reviews in 10+ languages, providing detailed feedback on bugs, performance, security, and best practices to help developers improve code quality.",
+  "requestFramePermissions": []
+}
