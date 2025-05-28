@@ -10,17 +10,32 @@
 ## ✨ Features
 
 ### 🤖 **Multiple AI Services**
-- **Gemini AI Integration**: Direct integration with Google's Gemini API
-  - Gemini 2.5 Flash Preview, Gemini 2.5 Pro Preview
-  - Gemini 2.0 Flash, Gemini 1.5 Flash, Gemini 1.5 Pro
-- **OpenRouter Integration**: Access to multiple AI models through OpenRouter
-  - GPT-4o, GPT-4o Mini, Claude 3.5 Sonnet
-  - Gemini 2.5 Flash (via OpenRouter), Llama 3.3 70B
+
+#### **Gemini AI Integration** (Direct Google API)
+- **Gemini 2.5 Pro Preview** - Advanced code architecture design, complex debugging, and enterprise-level code reviews
+- **Gemini 2.5 Flash Preview** - Reliable code generation, refactoring, and algorithm optimization with fast response
+- **Gemini 2.0 Flash** - Quick code fixes, syntax help, and basic programming assistance at minimal cost
+
+#### **OpenRouter Integration** (Access to Multiple AI Providers)
+- **GPT-4o Mini** - Solid code completion, bug fixing, and documentation generation at low cost
+- **Deepseek V3** - Specialized in code understanding, multi-language support, and technical problem solving
+- **Claude Sonnet 4** - Premier code analysis, complex system design, and comprehensive code review capabilities
+- **Claude 3.7 Sonnet** - Deep code analysis, advanced debugging, and comprehensive software architecture guidance
+- **Gemini 2.5 Pro Preview** (via OpenRouter) - Advanced code architecture design and enterprise-level reviews
+- **Gemini 2.5 Flash Preview** (via OpenRouter) - Fast code generation and algorithm optimization
+- **Gemini 2.0 Flash** (via OpenRouter) - Quick fixes and basic programming assistance
+
+#### **Model Selection Guide**
+- **For Complex Projects**: Gemini 2.5 Pro Preview, Claude Sonnet 4, Claude 3.7 Sonnet
+- **For Fast Development**: Gemini 2.5 Flash Preview, Deepseek V3
+- **For Cost-Effective Reviews**: Gemini 2.0 Flash, GPT-4o Mini
+- **For Multi-Language Projects**: Deepseek V3, Claude models
 
 ### 🌐 **Multilingual Support**
-- **UI Languages**: English, Khmer, Chinese, Japanese, Korean, Thai, Vietnamese, French, Spanish, German
-- **AI Response Languages**: Code reviews can be provided in any supported language
-- **Intelligent Localization**: Language-specific prompts and UI translations
+- **UI Languages**: English (default) - optimized for accessibility and user preference
+- **AI Response Languages**: English, Khmer, Spanish, French, Chinese, Japanese, Korean, Vietnamese, Thai
+- **Intelligent Localization**: Language-specific prompts with English technical instructions for optimal code review quality
+- **Translation Strategy**: Code review prompts written in English for better analysis, with output translated to target language
 
 ### ⚡ **Real-time Streaming**
 - **Live Response Streaming**: See code review results appear in real-time
@@ -98,28 +113,45 @@
 
 ### AI Provider Setup
 
-#### Gemini API
+#### Gemini API (Direct Integration)
 1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Create a new API key
 3. Add it to your `.env.local` file as `GEMINI_API_KEY`
+4. **Benefits**: Direct access, potentially lower latency, Google's latest models
+5. **Constraints**: Requires separate API key, limited to Gemini models only
 
-#### OpenRouter API
+#### OpenRouter API (Multi-Provider Access)
 1. Visit [OpenRouter](https://openrouter.ai/keys)
 2. Create a new API key
 3. Add it to your `.env.local` file as `OPENROUTER_API_KEY`
+4. **Benefits**: Access to multiple AI providers (OpenAI, Anthropic, Google, Deepseek), unified billing
+5. **Constraints**: Additional service layer, potential slight latency increase
 
 ### Application Settings
-- **Service Selection**: Choose between Gemini and OpenRouter
-- **Model Configuration**: Select specific models for each provider
-- **Language Preferences**: Set both UI and AI response languages
-- **Streaming Options**: Enable/disable real-time response streaming
+- **Service Selection**: Choose between Gemini (direct) and OpenRouter (multi-provider)
+- **Model Configuration**: Select specific models optimized for code review tasks
+- **Language Preferences**: Set UI language (English/Khmer) and AI response language (9 supported languages)
+- **Streaming Options**: Enable/disable real-time response streaming with markdown rendering
+- **Cost Optimization**: Models are described with cost-effectiveness indicators to help selection
+
+### Service Constraints & Limitations
+- **API Keys**: You can use either service independently or both simultaneously
+- **Model Availability**: Some models may have usage limits or require specific API tiers
+- **Streaming Support**: All models support streaming for real-time feedback
+- **Language Processing**: All models can handle code in any programming language
+- **Response Languages**: AI responses can be provided in 9 human languages with quality optimizations
 
 ## 🌟 **Why NobiCode?**
 
-- **Cost-Effective**: Choose from various AI models based on your budget and needs
-- **Developer-Friendly**: Built by developers, for developers with intuitive UX
+- **Cost-Effective Model Selection**: Choose from 10+ AI models with clear cost-effectiveness indicators
+  - Budget-friendly options: Gemini 2.0 Flash, GPT-4o Mini
+  - Premium options: Claude Sonnet 4, Gemini 2.5 Pro Preview
+  - Specialized options: Deepseek V3 for multi-language projects
+- **Multiple AI Service Support**: Maintain access to both Gemini and OpenRouter simultaneously
+- **Developer-Friendly**: Built by developers, for developers with intuitive UX and comprehensive model descriptions
 - **Privacy-Focused**: Client-side application with local storage - your code stays private
-- **Extensible**: Easy to add new AI providers and languages
+- **Intelligent Language Support**: Optimized prompts for better code review quality across 9 languages
+- **Extensible Architecture**: Easy to add new AI providers and languages without replacing existing services
 - **Open Source**: Transparent, customizable, and community-driven
 - **Multi-Platform**: Works on any device with a modern web browser
 
@@ -163,16 +195,31 @@ nobicode/
 - Ensure your API keys are correctly set in `.env.local`
 - Check that the API keys have the necessary permissions
 - Verify the API key format is correct
+- **Gemini**: Use `GEMINI_API_KEY` for direct Google API access
+- **OpenRouter**: Use `OPENROUTER_API_KEY` for multi-provider access
+
+**Model Selection Issues**
+- Some models may require specific API tiers or have usage limits
+- Try switching to a different model if one is unavailable
+- Budget-friendly alternatives: Gemini 2.0 Flash, GPT-4o Mini
+- Premium alternatives: Claude Sonnet 4, Gemini 2.5 Pro Preview
 
 **Streaming Not Working**
 - Check your internet connection
-- Ensure the selected AI service supports streaming
+- All models support streaming - try switching models if issues persist
 - Try disabling and re-enabling streaming mode
+- Clear browser cache if streaming appears stuck
+
+**Language/Translation Issues**
+- AI responses support 9 languages with optimized prompts
+- UI language limited to English and Khmer for optimal user experience
+- Code review quality is optimized when using English technical instructions
 
 **UI Not Loading**
 - Clear browser cache and local storage
 - Check browser console for errors
 - Ensure you're using a modern browser
+- Verify that at least one API key is configured
 
 ## 📄 **License**
 
@@ -191,8 +238,8 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 📞 **Support**
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/nobicode/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/nobicode/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Nobhokleng/nobicode/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Nobhokleng/nobicode/discussions)
 - **Documentation**: Check this README and inline code comments
 
 ## 🙏 **Acknowledgments**
@@ -204,13 +251,15 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 🔮 **Roadmap**
 
-- [ ] Additional AI service integrations (Anthropic Claude, Cohere, etc.)
-- [ ] Code diff analysis and comparison features
-- [ ] Team collaboration features
-- [ ] API rate limiting and usage analytics
-- [ ] Plugin system for custom analyzers
-- [ ] Desktop application (Electron)
-- [ ] VS Code extension
+- [ ] **Enhanced Model Constraints**: Add token limits, cost tracking, and usage analytics per model
+- [ ] **Additional AI Service Integrations**: Expand OpenRouter model selection while maintaining existing services
+- [ ] **Cost Optimization Features**: Real-time cost estimation and budget tracking across all services
+- [ ] **Advanced Language Support**: Expand UI language options while maintaining quality standards
+- [ ] **Code Diff Analysis**: Compare code versions with constraint-aware model selection
+- [ ] **Team Collaboration**: Multi-user features with service and model preferences
+- [ ] **Plugin System**: Custom analyzers with service-specific optimizations
+- [ ] **Desktop Application**: Electron app with enhanced API key security
+- [ ] **VS Code Extension**: Direct integration with constraint-aware model selection
 
 ---
 
